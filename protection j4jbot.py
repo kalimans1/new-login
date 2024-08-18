@@ -33,4 +33,4 @@ async def on_message(message):
     
     await bot.process_commands(message)
 
-bot.run('MTI3NDc2NzYxNTk0ODIyNjU5MQ.Gu0HkB.WiNn-7Smry5VS92kXEqcjDCgLJ3_huR1fbbgMM')  # Gerçek bot token'ınızı buraya ekleyin
+bot.run(process.env.token)  # Gerçek bot token'ınızı buraya ekleyin
